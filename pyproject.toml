@@ -11,6 +11,29 @@ readme = "README.md"
 python = "^3.8.1"
 cookiecutter = "2.6.0"
 
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.8"
+ignore_missing_imports = true
+disable_error_code = ["attr-defined", "arg-type", "union-attr"]
+
+[[tool.mypy.overrides]]
+module = [
+    "yaml",
+    "toml",
+    "cookiecutter",
+]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "ayugespidertools.items"
+ignore_errors = "True"
+
 [tool.poetry.group.dev.dependencies]
 black = "24.2.0"
 isort = "5.13.2"

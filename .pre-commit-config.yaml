@@ -21,6 +21,7 @@ repos:
     rev: 24.2.0
     hooks:
     -   id: black
+        exclude: '^{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/items\.py$|^{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/pipelines\.py$|^{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/middlewares\.py$|^{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/tests/test_{{cookiecutter.project_slug}}\.py$'
 
 -   repo: https://github.com/pycqa/isort
     rev: 5.13.2
