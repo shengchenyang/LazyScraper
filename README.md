@@ -18,4 +18,17 @@ pip install cookiecutter
 cookiecutter https://github.com/shengchenyang/LazyScraper.git
 ```
 
+## 运行示例
 
+> 使用方式示例：
+
+![LazyScraper-use.png](./examples/LazyScraper-use.png)
+
+> 结果示例：
+
+![LazyScraper-result.png](./examples/LazyScraper-result.png)
+
+# 补充
+
+- 可以根据 `github` 上的各种 `cookiecutter` 模版方便地创建项目，也可以 `fork` 他人优秀的项目结构来自定义项目。
+- 更多介绍及示例请在 `cookiecutter` 文档中查看。
