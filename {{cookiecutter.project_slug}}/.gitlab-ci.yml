@@ -1,0 +1,25 @@
+variables:
+  DEPLOY_SITE: "https://example.com/"
+
+stages:
+  - check
+  - build
+  - test
+
+check-code-job:
+  stage: check
+  script:
+    - pre-commit run --all-files
+  allow_failure: true
+
+build-code-job:
+  stage: build
+  script:
+    - echo "You can add build related scripts here:"
+    - echo "..."
+
+test-code-job1:
+  stage: test
+  script:
+    - echo "You can add test related scripts here:"
+    - echo "..."

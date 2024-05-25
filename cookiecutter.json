@@ -1,0 +1,15 @@
+{
+    "full_name": "ayugesheng",
+    "email": "ayguesheng@gmail.com",
+    "github_username": "ayuge",
+    "project_name": "ScrapyProjectName",
+    "project_slug": "{{ cookiecutter.project_name.replace(' ', '') }}",
+    "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    "source_control": ["github", "gitlab"],
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "version": "0.1.0",
+    "use_pytest": "n",
+    "use_pypi_deployment_with_travis": "y",
+    "create_author_file": "y",
+    "open_source_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"]
+}
