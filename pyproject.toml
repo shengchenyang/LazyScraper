@@ -8,9 +8,17 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8.1"
 cookiecutter = "2.6.0"
 
+[tool.poetry.group.dev.dependencies]
+black = "24.2.0"
+isort = "5.13.2"
+coverage = "~7.2.2"
+tox = "~4.4.8"
+flake8 = "7.0.0"
+mypy = "~1.5.1"
+pre-commit = "3.5.0"
 
 [build-system]
 requires = ["poetry-core"]
