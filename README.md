@@ -30,6 +30,10 @@ cookiecutter https://github.com/shengchenyang/LazyScraper.git
 
 ![LazyScraper-result.png](./examples/LazyScraper-result.png)
 
+## 注意事项
+
+- 项目模板创建的 `run.sh` 默认从项目根目录下的 `.venv` 中激活虚拟环境，目前感觉没必要给予用户其它规则的选择，比如 `venv` 或者 `<cookiecutter.project_slug>_venv` 之类。
+
 # 补充
 
 - 可以根据 `github` 上的各种 `cookiecutter` 模版方便地创建项目，也可以 `fork` 他人优秀的项目结构来自定义项目。
