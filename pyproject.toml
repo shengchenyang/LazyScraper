@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ccpgithub"
+name = "LazyScraper"
 version = "0.1.0"
 package-mode = false
 description = "python project template."
@@ -29,10 +29,6 @@ module = [
     "cookiecutter",
 ]
 ignore_missing_imports = true
-
-[[tool.mypy.overrides]]
-module = "ayugespidertools.items"
-ignore_errors = "True"
 
 [tool.poetry.group.dev.dependencies]
 black = "24.2.0"
