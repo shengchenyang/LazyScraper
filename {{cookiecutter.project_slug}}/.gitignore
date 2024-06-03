@@ -163,5 +163,5 @@ cython_debug/
 .vscode/
 
 # AyugeSpiderTools
-/DemoSpider/VIT/.conf
-/DemoSpider/logs/
+/{{cookiecutter.project_slug}}/VIT/.conf
+/{{cookiecutter.project_slug}}/logs/
