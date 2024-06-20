@@ -1,4 +1,4 @@
-.PHONY: start dev check
+.PHONY: start dev git check
 
 start:
 	pip install poetry
