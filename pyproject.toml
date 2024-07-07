@@ -31,12 +31,12 @@ module = [
 ignore_missing_imports = true
 
 [tool.poetry.group.dev.dependencies]
-black = "24.2.0"
+black = "24.4.2"
 isort = "5.13.2"
-coverage = "~7.2.2"
-tox = "~4.4.8"
-flake8 = "7.0.0"
-mypy = "~1.5.1"
+coverage = "7.2.7"
+tox = "4.4.12"
+flake8 = "7.1.0"
+mypy = "1.10.1"
 pre-commit = "3.5.0"
 
 [build-system]
