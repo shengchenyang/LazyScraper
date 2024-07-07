@@ -11,6 +11,7 @@ readme = "README.md"
 python = "^3.8.1"
 cookiecutter = "2.6.0"
 urllib3 = "~2.2.2"
+certifi = "~2024.07.04"
 
 [tool.black]
 line-length = 88
