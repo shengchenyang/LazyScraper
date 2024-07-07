@@ -10,6 +10,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8.1"
 cookiecutter = "2.6.0"
+urllib3 = "~2.2.2"
 
 [tool.black]
 line-length = 88
