@@ -8,6 +8,7 @@
     "source_control": ["github", "gitlab"],
     "pypi_username": "{{ cookiecutter.github_username }}",
     "version": "0.1.0",
+    "virtualenv_type": [".venv", "venv", ".env", "env", "{{ cookiecutter.project_slug.lower() }}_venv"],
     "use_pytest": "n",
     "use_pypi_deployment_with_travis": "y",
     "create_author_file": "y",

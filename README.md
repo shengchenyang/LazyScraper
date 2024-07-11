@@ -32,7 +32,7 @@ cookiecutter https://github.com/shengchenyang/LazyScraper.git
 
 ## 注意事项
 
-- 项目模板创建的 `run.sh` 默认从项目根目录下的 `.venv` 中激活虚拟环境，目前感觉没必要给予用户其它规则的选择，比如 `venv` 或者 `<cookiecutter.project_slug>_venv` 之类。
+- 项目模板创建的 `run.sh` 默认从项目根目录的虚拟环境文件夹中激活环境，用户可在创建项目时通过自定义 `virtualenv_type` 来选择不同风格，默认为 `.venv`。
 
 # 补充
 
