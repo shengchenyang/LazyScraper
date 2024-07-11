@@ -5,8 +5,7 @@ REMOVE_PATHS = []
 
 source_control = "{{ cookiecutter.source_control }}"
 if source_control == "github":
-    REMOVE_PATHS.append(".gitlab")
-    REMOVE_PATHS.append(".gitlab-ci.yml")
+    REMOVE_PATHS.extend((".gitlab", ".gitlab-ci.yml"))
 elif source_control == "gitlab":
     REMOVE_PATHS.append(".github")
 
