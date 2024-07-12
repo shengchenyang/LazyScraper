@@ -1,4 +1,4 @@
-# {{cookiecutter.project_slug}} 项目说明文档
+# {{ cookiecutter.project_slug }} 项目说明文档
 
 ## 前言
 

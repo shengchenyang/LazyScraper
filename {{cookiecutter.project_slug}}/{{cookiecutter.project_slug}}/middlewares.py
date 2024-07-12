@@ -8,7 +8,7 @@ from itemadapter import ItemAdapter, is_item
 from scrapy import signals
 
 
-class {{cookiecutter.project_slug}}SpiderMiddleware:
+class {{ cookiecutter.project_slug }}SpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -55,7 +55,7 @@ class {{cookiecutter.project_slug}}SpiderMiddleware:
         spider.logger.info("Spider opened: %s" % spider.name)
 
 
-class {{cookiecutter.project_slug}}DownloaderMiddleware:
+class {{ cookiecutter.project_slug }}DownloaderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.

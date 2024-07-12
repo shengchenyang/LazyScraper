@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class {{cookiecutter.project_slug}}Pipeline:
+class {{ cookiecutter.project_slug }}Pipeline:
     def process_item(self, item, spider):
         return item

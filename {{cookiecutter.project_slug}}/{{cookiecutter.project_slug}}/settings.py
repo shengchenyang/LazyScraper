@@ -1,4 +1,4 @@
-# Scrapy settings for {{cookiecutter.project_slug}} project
+# Scrapy settings for {{ cookiecutter.project_slug }} project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -11,10 +11,10 @@ from pathlib import Path
 
 from loguru import logger
 
-BOT_NAME = "{{cookiecutter.project_slug}}"
+BOT_NAME = "{{ cookiecutter.project_slug }}"
 
-SPIDER_MODULES = ["{{cookiecutter.project_slug}}.spiders"]
-NEWSPIDER_MODULE = "{{cookiecutter.project_slug}}.spiders"
+SPIDER_MODULES = ["{{ cookiecutter.project_slug }}.spiders"]
+NEWSPIDER_MODULE = "{{ cookiecutter.project_slug }}.spiders"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -29,7 +29,7 @@ VIT_DIR = _ / "VIT"
 
 # Log configuration example
 LOG_LEVEL = "ERROR"
-LOG_FILE = _ / "logs/{{cookiecutter.project_slug}}.log"
+LOG_FILE = _ / "logs/{{ cookiecutter.project_slug.lower() }}.log"
 logger.add(
     _ / "logs/error.log",
     level="ERROR",

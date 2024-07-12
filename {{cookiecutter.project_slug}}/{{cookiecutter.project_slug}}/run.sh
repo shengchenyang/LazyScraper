@@ -2,5 +2,5 @@
 SCRIPT_DIR=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 ROOT_DIR=$(dirname "$SCRIPT_DIR")
 source "$ROOT_DIR/{{ cookiecutter.virtualenv_type }}/bin/activate"
-cd "$ROOT_DIR/{{cookiecutter.project_slug}}" && nohup python ./run.py &
+cd "$ROOT_DIR/{{ cookiecutter.project_slug }}" && nohup python ./run.py &
 deactivate

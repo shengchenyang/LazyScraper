@@ -14,4 +14,4 @@ ignore =
 exclude =
     .git,
     docs,
-    {{cookiecutter.project_slug}}/tests,
+    {{ cookiecutter.project_slug }}/tests,

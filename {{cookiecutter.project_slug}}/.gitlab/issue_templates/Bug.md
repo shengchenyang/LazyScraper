@@ -13,7 +13,7 @@ cn: 对 bug 进行清晰地描述。
 
 **Versions (please complete the following information)/版本信息:**
  - **Device & OS:** [e.g. Windows 10 22H2 / MacOS Ventura 13.2.1 / Ubuntu 22.04.2 LTS]
- - **Version:** [e.g. {{cookiecutter.project_slug}}-0.1.0]
+ - **Version:** [e.g. {{ cookiecutter.project_slug }}-0.1.0]
  - **Python:** [e.g. Python 3.8.5]
 
 **To Reproduce/复现**

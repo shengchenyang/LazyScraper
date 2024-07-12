@@ -6,7 +6,7 @@
 import scrapy
 
 
-class {{cookiecutter.project_slug}}Item(scrapy.Item):
+class {{ cookiecutter.project_slug }}Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

@@ -163,10 +163,10 @@ cython_debug/
 .vscode/
 
 # AyugeSpiderTools Possible Environments
-{{cookiecutter.project_slug}}_venv/
+{{ cookiecutter.project_slug }}_venv/
 
 # AyugeSpiderTools .conf file
-/{{cookiecutter.project_slug}}/VIT/.conf
+/{{ cookiecutter.project_slug }}/VIT/.conf
 
 # AyugeSpiderTools Logs
-/{{cookiecutter.project_slug}}/logs/
+/{{ cookiecutter.project_slug }}/logs/

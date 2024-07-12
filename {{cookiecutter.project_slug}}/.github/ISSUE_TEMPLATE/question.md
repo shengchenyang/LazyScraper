@@ -1,6 +1,6 @@
 ---
 name: Question / Help
-about: Ask a question about {{cookiecutter.project_slug}}
+about: Ask a question about {{ cookiecutter.project_slug }}
 title: ''
 labels: ''
 assignees: ''
